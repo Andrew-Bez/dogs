@@ -1,0 +1,36 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.btn_link {
+	color: #6f1eaa;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 130%;
+
+	padding: 10px 40px;
+	background-color: transparent;
+	border: none;
+}
+
+.btn_standard {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 130%;
+
+	border: none;
+	background: #6f1eaa;
+}
+
+.header__button {
+	border-radius: 19px;
+	padding: 10px 40px;
+}
+
+.promo__btn {
+	border-radius: 24px;
+	padding: 15px 40px;
+}
