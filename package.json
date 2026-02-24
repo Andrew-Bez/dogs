@@ -1,0 +1,20 @@
+{
+  "name": "dogs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Andrew-Bez/dogs#readme",
+  "bugs": {
+    "url": "https://github.com/Andrew-Bez/dogs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Bez/dogs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
