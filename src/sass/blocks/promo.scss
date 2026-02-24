@@ -1,0 +1,21 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.promo {
+	background-color: $beige;
+	padding-top: 102px;
+	padding-bottom: 244px;
+	&__wrapper {
+		width: 670px;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__info {
+		margin-top: 32px;
+	}
+	&__btn {
+		margin-top: 23px;
+	}
+}
