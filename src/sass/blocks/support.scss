@@ -1,0 +1,23 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.support {
+	background-color: $lavand;
+  &__wrapper {
+    display: flex;
+    gap: 8px;
+  }
+  &__right {
+    width: 570px;
+    margin: 48px 40px;
+    padding: 102px 25px;
+  }
+  &__title {
+    margin-top: 8px;
+  }
+  &__info {
+    margin-top: 43px;
+  }
+  &__btn {
+    margin-top: 26px;
+  }
+}

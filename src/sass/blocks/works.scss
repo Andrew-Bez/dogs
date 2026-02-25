@@ -1,0 +1,44 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.works {
+	background-color: $light_gray;
+	padding: 60px 0 60px 0;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__benefits {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 32px;
+		margin-top: 65px;
+	}
+	&__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+		width: 359px;
+		&-img {
+			width: 192px;
+			height: 192px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: $yellow;
+			border-radius: 50%;
+		}
+    h3 {
+      margin-top: 30px;
+    }
+    p {
+      margin-top: 11px;
+    }
+	}
+	&__btn {
+		margin-top: 65px;
+	}
+}

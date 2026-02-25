@@ -5,11 +5,9 @@ import { defineConfig } from 'vite'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-	build: {
-		rollupOptions: {
-			input: {
-				main: resolve(__dirname, 'index.html'),
-			},
+	resolve: {
+		alias: {
+			'@': resolve(__dirname, 'src'),
 		},
 	},
 })
