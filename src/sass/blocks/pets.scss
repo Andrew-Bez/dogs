@@ -1,0 +1,19 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.pets {
+  padding: 58px 0;
+  &__subtitle {
+    padding-top: 24px;
+  }
+  &__slide {
+    background-color: $blue;
+    margin-top: 34px;
+    max-width: 1072px;
+    padding: 58px 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+}
