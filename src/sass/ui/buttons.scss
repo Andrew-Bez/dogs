@@ -14,9 +14,8 @@
 }
 
 .btn_standard {
-	color: #fff;
-	font-family: Roboto;
-	font-size: 14px;
+	color: $white;
+	font-size: 15px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 130%;
@@ -43,4 +42,11 @@
 .support__btn {
 	border-radius: 24px;
 	padding: 15px 40px;
+}
+
+.wild__btn {
+	border-radius: 24px;
+	padding: 15px 40px;
+	width: 160px;
+	height: 48px;
 }

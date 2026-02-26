@@ -1,0 +1,46 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.wild {
+  background-color: $light_gray;
+  padding: 58px 0px 153px;
+  position: relative;
+  &__bg {
+    &-left {
+      position: absolute;
+      left: 0;
+      top: 250px
+    }
+    &-right {
+      position: absolute;
+      right: 0;
+      bottom: 230px;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__info {
+    margin-top: 30px;
+    width: 455px;
+  }
+  &__cards {
+    margin-top: 75px;
+    display: flex;
+    gap: 32px;
+  }
+  &__item {
+    width: 384px;
+    &-block {
+      background-color: $white;
+      border: 2px solid rgba(232, 220, 248, 0.5);
+      border-top: none;
+      padding: 35px;
+    }
+  }
+  &__btn {
+    margin-top: 48px;
+  }
+}

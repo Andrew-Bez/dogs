@@ -1,0 +1,48 @@
+@use '/src/sass/base/variables.scss' as *;
+
+.sponsors {
+	background-color: $purple;
+	&__list {
+		display: flex;
+		gap: 64px;
+		justify-content: center;
+		align-items: center;
+		padding: 40px 40px 20px;
+	}
+}
+
+.footer {
+	background-color: $dark_purple;
+	padding-top: 56px;
+	padding-bottom: 32px;
+	&__wrapper {
+		margin-left: 233px;
+	}
+	&__uls {
+		display: flex;
+		gap: 16px;
+	}
+	&__list {
+		width: 177px;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+	&__links-title {
+		margin-bottom: 16px;
+	}
+	&__social {
+		display: flex;
+		gap: 30px;
+		flex-wrap: wrap;
+	}
+	&__end {
+    margin-top: 56px;
+		display: flex;
+    gap: 18px;
+	}
+}
+
+.margin-top {
+	margin-top: 10px;
+}

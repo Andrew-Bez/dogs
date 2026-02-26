@@ -135,7 +135,95 @@
 		font-weight: 400;
 		line-height: 165%;
 		span {
-			color: $purple;	
+			color: $purple;
 		}
+	}
+}
+
+.wild {
+	&__title {
+		color: $black;
+		text-align: center;
+		font-size: 44px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 120%;
+	}
+	&__info {
+		color: $black;
+		text-align: center;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 174%;
+	}
+	&__item {
+		&-subtitle {
+			color: $orange;
+			font-size: 15px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 150%;
+		}
+		&-title {
+			color: $black;
+			font-size: 24px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 132%;
+			margin-top: 15px;
+		}
+		&-info {
+			color: $black;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 200%;
+			margin-top: 15px;
+		}
+		&-link {
+			color: $purple;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 118.75%;
+			margin-top: 27px;
+			a {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.footer {
+	&__links-title {
+		color: #c282f0;
+		opacity: 0.5;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 116.667%;
+		letter-spacing: 0.6px;
+		text-transform: uppercase;
+	}
+	&__list {
+		a {
+			text-decoration: none;
+			opacity: 0.9;
+			color: #fff;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 130%;
+		}
+	}
+	&__text {
+		text-decoration: none;
+		opacity: 0.9;
+		color: #fff;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 130%;
 	}
 }
