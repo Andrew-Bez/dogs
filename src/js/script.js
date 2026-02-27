@@ -3,13 +3,21 @@ import 'swiper/css'
 import { Autoplay } from 'swiper/modules'
 import '/src/sass/style.scss'
 
-const swiper = new Swiper('.swiper', {
+new Swiper('.reviews__slider', {
 	modules: [Autoplay],
+	slidesPerView: 'auto',
+	centeredSlides: true,
+	spaceBetween: 80,
+	speed: 800,
+	initialSlide: 1,
+
 	autoplay: {
-		delay: 3000, // 3 секунди
+		delay: 4000,
 		disableOnInteraction: false,
 	},
-	loop: true,
-	slidesPerView: 1,
-	spaceBetween: 80,
 })
+
+
+
+
+

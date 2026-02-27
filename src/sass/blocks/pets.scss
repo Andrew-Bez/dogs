@@ -1,19 +1,26 @@
 @use '/src/sass/base/variables.scss' as *;
 
 .pets {
-  padding: 58px 0;
-  &__subtitle {
-    padding-top: 24px;
-  }
-  &__slide {
-    background-color: $blue;
-    margin-top: 34px;
-    max-width: 1072px;
-    padding: 58px 40px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+	padding: 58px 0;
+  position: relative;
+	&__subtitle {
+		padding-top: 24px;
+	}
+	&__slide {
+		background-color: $blue;
+		margin-top: 34px;
+		width: 1072px;
+		flex-shrink: 0;
+		padding: 58px 40px;
+		border-radius: 25px;
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+  &__hearts {
+    position: absolute;
+    top: 40px;
+    right: 65px;
+    z-index: 50;
   }
 }
