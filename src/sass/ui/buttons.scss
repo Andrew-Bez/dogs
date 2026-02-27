@@ -1,52 +1,45 @@
 @use '/src/sass/base/variables.scss' as *;
 
-.btn_link {
-	color: #6f1eaa;
-	font-family: Roboto;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 130%;
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 
-	padding: 10px 40px;
-	background-color: transparent;
-	border: none;
-}
-
-.btn_standard {
-	color: $white;
-	font-size: 15px;
-	font-style: normal;
+	font-family: Roboto, sans-serif;
 	font-weight: 700;
 	line-height: 130%;
-
+	text-decoration: none;
 	border: none;
-	background: #6f1eaa;
-}
+	cursor: pointer;
 
-.header__button {
-	border-radius: 19px;
-	padding: 10px 40px;
-}
+	transition: 0.2s ease;
 
-.promo__btn {
-	border-radius: 24px;
-	padding: 15px 40px;
-}
+	&--primary {
+		background: $purple;
+		color: $white;
+	}
 
-.works__btn {
-	border-radius: 24px;
-	padding: 15px 40px;
-}
+	&--ghost {
+		background: transparent;
+		color: $purple;
+		font-weight: 400;
+	}
 
-.support__btn {
-	border-radius: 24px;
-	padding: 15px 40px;
-}
+	&--sm {
+		padding: 10px 24px;
+		border-radius: 18px;
+		font-size: 14px;
+	}
 
-.wild__btn {
-	border-radius: 24px;
-	padding: 15px 40px;
-	width: 160px;
-	height: 48px;
+	&--md {
+		padding: 15px 40px;
+		margin-top: 15px;
+		border-radius: 24px;
+		font-size: 15px;
+	}
+
+	&--fixed {
+		width: 160px;
+		height: 48px;
+	}
 }
